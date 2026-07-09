@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NXTGNTN — Next Gen Tennessee</title>
+<!-- Stylesheet lives at site/css/style.css -->
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<!-- HEADER: site nav bar. Logo on left, jump links on right. -->
 <header>
   <div class="logo">NXT<span>GNTN</span></div>
   <nav>
@@ -17,28 +19,35 @@
   </nav>
 </header>
 
+<!-- HERO: top banner with headline, one-line pitch, and CTA button to #apps -->
 <div class="hero">
   <h1>Training Tennessee's<br><span class="accent">next generation</span> of leaders</h1>
   <p>NXTGNTN is a civic education and political leadership training organization for college students across Tennessee — nonpartisan, campus-built, and focused on getting young leaders ready to run for office.</p>
   <a class="btn" href="#apps">Explore Our Tools</a>
 </div>
 
+<!-- ABOUT: "Who We Are" section, two paragraphs. Mission and nonpartisan framing live here. -->
 <section class="about" id="about">
   <h2><span class="bar"></span><br>Who We Are</h2>
   <p>NXTGNTN trains college students to become the next generation of Tennessee's civic and political leaders. Through campus chapters, structured curriculum, and hands-on organizing experience, we're building a statewide pipeline of leaders who understand how to run campaigns, hold office, and serve their communities.</p>
   <p>We're explicitly nonpartisan in everything we do — our focus is on developing the skills, character, and civic knowledge that leadership requires, not any political ideology. Founded in 2025, our founding chapter launches at the University of Tennessee Martin in August 2026, with statewide expansion to follow.</p>
 </section>
 
+<!-- MISSION STRIP: full-width orange banner restating the mission statement -->
 <div class="mission-strip">
   <h2>Our Mission</h2>
   <p>Civic education and political leadership training for college students across Tennessee — building an army of trained, nonpartisan leaders ready to serve their communities and run for office.</p>
 </div>
 
+<!-- APPS: card grid listing tools/apps built by NXTGNTN. -->
+<!-- To add a new app: copy an <a class="app-card live"> or <div class="app-card soon"> block below. -->
+<!-- "live" cards are clickable links (real URL, opens in new tab). "soon" cards are static placeholders. -->
 <section id="apps">
   <h2><span class="bar"></span><br>Our Apps &amp; Tools</h2>
   <p style="max-width:700px;color:#555;margin-top:-6px;">Tools we've built to support campaigns, nonprofits, and civic organizing — with more on the way.</p>
 
   <div class="apps-grid">
+    <!-- LinkWay: first live app. Links out to linkway.nxtgntn.com -->
     <a class="app-card live" href="https://linkway.nxtgntn.com" target="_blank" rel="noopener">
       <span class="tag">Live</span>
       <h3>LinkWay</h3>
@@ -46,6 +55,7 @@
       <span class="arrow">Open LinkWay →</span>
     </a>
 
+    <!-- Placeholder card for the next app. Replace with a real "live" card when built. -->
     <div class="app-card soon">
       <span class="tag">Coming Soon</span>
       <h3>Next Tool</h3>
@@ -54,6 +64,7 @@
   </div>
 </section>
 
+<!-- FOOTER: org name, contact email, copyright line. id="contact" matches the nav link above. -->
 <footer id="contact">
   <p><span class="foot-brand">NXTGNTN</span> — Next Gen Tennessee</p>
   <p style="margin-top:10px;">
@@ -62,6 +73,7 @@
   <p style="margin-top:14px;opacity:0.6;">&copy; 2026 NXTGNTN. Nonpartisan. Built by students, for students.</p>
 </footer>
 
+<!-- JS is currently a placeholder, no active behavior yet -->
 <script src="js/main.js"></script>
 </body>
 </html>
